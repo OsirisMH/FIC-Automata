@@ -1,0 +1,14 @@
+{
+    "estados": ["q1", "q2", "q3", "q4"],
+    "alfabeto": ["0", "1", "e"],
+    "simbolosPila": ["0", "1", "e", "z"],
+    "transiciones":[
+        {
+            "q1":{"e":["q2","e","z"]},
+            "q2":{"0":["q2","e","0"], "1":["q3","0","e"]},
+            "q3":{"1":["q3","0","e"], "e":["q4","z","e"]}
+        }
+    ],
+    "estadoInicial": "q1",
+    "estadoAceptacion": ["q4"]
+}
