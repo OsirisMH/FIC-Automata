@@ -7,3 +7,13 @@
 - AutomataJS - JavaScript (Node)
 
 ## ¡No olviden subir cambios importantes al repositorio!
+
+### Integrantes
+
+- Kevin
+
+- Ruben
+
+- Adrian
+
+- Osiris
