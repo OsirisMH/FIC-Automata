@@ -1,5 +1,5 @@
 import json 
-data = open('configuracionPrueba.json')
+data = open('configuracionPDA.json')
 config = json.load(data) 
 with open("cadena.txt", 'r') as f:
     datosEntrada = f.read()

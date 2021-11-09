@@ -2,7 +2,7 @@
 
 ## Existen dos versiones del automata creadas en diferentes lenguajes
 
-- AutomataPY - Python
+- **AutomataPY - Python**
 
 - AutomataJS - JavaScript (Node)
 
