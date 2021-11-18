@@ -1,0 +1,15 @@
+{ 
+    "estados": ["q0","q1","q2"],
+    "alfabeto": ["0", "1"],
+    "transiciones": [
+        {
+            "q0":{"0":["q0","R"], "1":["q1","R"]},
+            "q1":{"0":["q1","R"], "1":["q2","L"]},
+            "q2":{"0":["q0","R"], "1":["q2","L"]}
+        }
+    ],
+    "estadoInicial": "q0",
+    "direccionInicial": "R",
+    "direccionAceptacion": ["R"],
+    "estadoAceptacion": ["q1"]
+}
