@@ -1,15 +1,15 @@
 { 
-    "estados": ["q0","q1","q2"],
-    "alfabeto": ["0", "1"],
+    "estados": ["p","q","r","s","t"],
+    "alfabeto": ["a","b","D","I"],
     "transiciones": [
         {
-            "q0":{"0":["q0","R"], "1":["q1","R"]},
-            "q1":{"0":["q1","R"], "1":["q2","L"]},
-            "q2":{"0":["q0","R"], "1":["q2","L"]}
+            "p":{"a":["p","D"], "b":["p","D"], "D":["p","D"],"I":["q","I"]},
+            "q":{"a":["r","I"], "b":["t","D"], "D":["t","D"]},
+            "r":{"a":["t","D"], "b":["s","D"], "D":["t","D"]},
+            "s":{"a":["s","D"], "I":["s","N"]},
+            "t":{"a":["t","D"]}
         }
     ],
-    "estadoInicial": "q0",
-    "direccionInicial": "R",
-    "direccionAceptacion": ["R"],
-    "estadoAceptacion": ["q1"]
+    "estadoInicial": "p",
+    "estadoAceptacion": ["s"]
 }
